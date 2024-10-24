@@ -1,0 +1,262 @@
+body {
+    background-color: #111214;
+    margin: 0;
+}
+
+.banner {
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.icon-frame {
+    background-color: #111214;
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -64px;
+}
+
+.icon {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+}
+
+.title-section {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.subtitle-section {
+    color: #8E8E8E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Poppins';
+    z-index: 999;
+}
+
+h2 {
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.socials-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-bottom: 1px solid #232528;
+    padding-bottom: 16px;
+}
+
+.panel-field {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.panel p {
+    color: #AAAFB6;
+    font-size: 12px;
+    width: 380px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.panel {
+    background-color: #232528;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.divider {
+    background-color: #37393F;
+    height: 1px;
+    width: 640px;
+}
+
+.bt-primary {
+    font-family: "poppins";
+    text-decoration: none;
+    background-color: #686868;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.bt-secondary {
+    font-family: "poppins";
+    text-decoration: none;
+    background-color: #A4FF43;
+    border: none;
+    color: #1a1a1a;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+}
+
+button {
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.panel .footer {
+    font-size: 10px;
+    color: #686868;
+}
+
+.bt-primary:hover {
+    background-color: #4d4d4d;
+    cursor: pointer;
+}
+
+.bt-secondary:hover {
+    background-color: #81c538;
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 20px;
+    margin-top: 60px;
+}
+
+.container .box {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.container .box img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: calc(100% - 40px);
+        columns: 3;
+    }
+
+    .banner {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .banner-section {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .container {
+        columns: 2;
+    }
+
+    .panel {
+        width: 440px;
+        border-radius: 5px;
+    }
+
+    .divider {
+        width: 400px;
+    }
+
+    .line {
+        width: 300px;
+    }
+
+} 
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #111214;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #81c538;
+    border-radius: 15px;
+}
